@@ -197,9 +197,26 @@ clang++ -std=c++17 main.cpp -o app $(pkg-config --cflags --libs raylib)
 ./app
 ```
 
----
+# 🟦 4) Compile and run in the following order:
 
-# 🟦 4) Troubleshooting
+## Geometry
+
+1. raylib_window.cpp
+2. raylib_coord_sys.cpp
+3. raylib_triangle.cpp
+4. raylib_planear_geometry.cpp
+5. raylib_pts_vct_seg.cpp
+6. raylib_kyb_mouse.cpp
+
+## Transformations
+1. traslation_box.cpp
+2. traslation_kyb_box.cpp
+3. fps_vel_rebound.cpp
+4. rotate_box.cpp
+5. rotate_box_kyb.cpp
+
+
+# 🟦 5) Troubleshooting
 
 ## Windows
 - Ensure MSYS2 UCRT64 terminal is used
@@ -214,3 +231,6 @@ clang++ -std=c++17 main.cpp -o app $(pkg-config --cflags --libs raylib)
 # 🟦 Final recommendation
 
 Use a GenAI such as ChatGPT, Gemini or deepseek for troubleshooting. 
+
+
+
