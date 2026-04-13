@@ -213,4 +213,4 @@ clang++ -std=c++17 main.cpp -o app $(pkg-config --cflags --libs raylib)
 
 # 🟦 Final recommendation
 
-Use an GenAI such as ChatGPT, Gemini or deepseek for troubleshooting. 
+Use a GenAI such as ChatGPT, Gemini or deepseek for troubleshooting. 
