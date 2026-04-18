@@ -21,7 +21,7 @@ int main()
 
         // Casa
         DrawRectangle(270, 280, 220, 170, BEIGE);
-        DrawTriangle((Vector2){250, 280}, (Vector2){380, 180}, (Vector2){510, 280}, BROWN);
+        DrawTriangle(Vector2{250, 280}, Vector2{380, 180}, Vector2{510, 280}, BROWN);
         DrawRectangle(350, 365, 55, 85, DARKBROWN);
         DrawRectangle(300, 320, 45, 45, SKYBLUE);
         DrawRectangle(415, 320, 45, 45, SKYBLUE);

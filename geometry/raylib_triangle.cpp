@@ -14,9 +14,9 @@ int main()
 
         // Dibujar triangulo
         DrawTriangle(
-            (Vector2){400, 150},
-            (Vector2){300, 450},
-            (Vector2){500, 450},
+            Vector2{400, 150},
+            Vector2{300, 450},
+            Vector2{500, 450},
             RED
         );
 
